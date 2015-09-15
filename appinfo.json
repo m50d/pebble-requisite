@@ -1,0 +1,42 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "nealenssle",
+    "longName": "Requisite",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "characterRegex": "[0-9: ]",
+                "file": "fonts/helvetica-neue-bold.ttf",
+                "name": "FONT_HELVETICANEUE_BOLD_48",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9A-Za-z :|]",
+                "file": "fonts/helvetica-neue-regular.ttf",
+                "name": "FONT_HELVETICANEUE_REGULAR_28",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9A-Za-z :|%]",
+                "file": "fonts/helvetica-neue-regular.ttf",
+                "name": "FONT_HELVETICANEUE_REGULAR_12",
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Requisite",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "397342ed-544f-4a58-9ce6-62c8c82f5439",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
