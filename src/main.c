@@ -16,8 +16,8 @@ static void update_time() {
   time_t time_temp = time(NULL); 
   struct tm *time_tick = localtime(&time_temp);
   static char time_buffer[] = "00:00";
-  char time_format[] = "%I:%M"; 
-  if (clock_is_24h_style()) { char time_format[] = "%H:%M"; }
+  char *time_format = "%I:%M"; 
+  if (clock_is_24h_style()) { time_format = "%H:%M"; }
   strftime(time_buffer, sizeof(time_buffer), time_format, time_tick);
   text_layer_set_text(s_time_layer, time_buffer + (('0' == time_buffer[0]) ? 1 : 0));
 }
